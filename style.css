@@ -12,15 +12,14 @@ body {
 /* Hero Section */
 .hero {
   text-align: center;
-  background: linear-gradient(to right, #eaf6ff, #9fb9d3); /* Added gradient background */
+  background: linear-gradient(to right, #e0c3fc, #8ec5fc); /* Toned down gradient background */
   padding: 60px 20px; /* Added padding */
 }
 
 .hero img {
-  width: 250px;
+  width: 200px;
   border-radius: 50%;
   border: solid 4px #16213e;
-  margin-bottom: 20px;
 }
 
 .hero h1 {
@@ -30,7 +29,7 @@ body {
 }
 
 .hero p {
-  margin: 10px 0 20px;
+  margin: 10px 0 30px;
   color: #555;
   font-size: 20px; /* Increased font size */
 }
@@ -55,7 +54,7 @@ body {
   text-align: center;
   background-color: #ffffff;
   margin: 40px auto;
-  max-width: 900px;
+  max-width: 950px;
   font-size: 1.25em; /* Increased font size */
 }
 
@@ -97,6 +96,7 @@ strong {
   background-color: #ffffff;
   text-align: center;
   margin: auto;
+  margin-bottom: 20px;
   max-width: 800px;
 }
 
@@ -122,4 +122,12 @@ strong {
 .features li strong {
   display: block;
   margin-bottom: 5px;
+}
+
+footer {
+  background-color: #16213e;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 0.9em;
 }
